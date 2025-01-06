@@ -1,0 +1,81 @@
+.masonry-grid {
+  display: flex;
+  margin-left: -8px; 
+  width: auto;
+}
+.masonry-grid-column {
+  padding-left: 8px; 
+  background-clip: padding-box;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app-bar {
+  background-color: #1976d2;
+}
+
+.title {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.content-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.search-form {
+  margin-bottom: 20px;
+}
+
+.filter-sort-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.masonry-grid {
+  display: flex;
+  margin-left: -15px;
+  width: auto;
+}
+
+.masonry-grid-column {
+  padding-left: 15px;
+  background-clip: padding-box;
+}
+
+.art-card {
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+}
+
+.card-content {
+  padding: 16px;
+  text-align: center;
+}
+
+.loading-message,
+.error-message,
+.no-results-message {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 20px;
+}
